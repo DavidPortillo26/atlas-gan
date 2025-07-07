@@ -1,0 +1,2 @@
+from models.gen_variant1 import GeneratorVariant
+from models.disc_variant1 import DiscriminatorVariant
