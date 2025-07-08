@@ -1,8 +1,13 @@
 # utils/train_baseline.py
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import wandb
+
 from models.generator import Generator
 from models.discriminator import Discriminator
 from utils.mnist_loader import get_mnist_loader
