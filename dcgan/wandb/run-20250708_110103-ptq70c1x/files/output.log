@@ -1,0 +1,35 @@
+100.0%
+100.0%
+100.0%
+100.0%
+Traceback (most recent call last):
+  File "/Users/davidportillo/atlas-gan/dcgan/utils/train_baseline.py", line 57, in <module>
+    train_dcgan()
+    ~~~~~~~~~~~^^
+  File "/Users/davidportillo/atlas-gan/dcgan/utils/train_baseline.py", line 18, in train_dcgan
+    generator = Generator(latent_dim).to(device)
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+           ~~~~^
+        device,
+        ^^^^^^^
+        dtype if t.is_floating_point() or t.is_complex() else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        non_blocking,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torch/cuda/__init__.py", line 363, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

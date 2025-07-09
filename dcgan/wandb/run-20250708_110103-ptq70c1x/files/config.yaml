@@ -1,0 +1,54 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            z3gymttrn2mb919b57mbz6jlspdh1gl3:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "2147483648"
+                codePath: dcgan/utils/train_baseline.py
+                codePathLocal: utils/train_baseline.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "122599825408"
+                email: anicetod03@gmail.com
+                executable: /Users/davidportillo/atlas-gan/dcgan/venv/bin/python3
+                git:
+                    commit: 232873a937744f111c6b0e6dd5fa0b3381681c8b
+                    remote: git@github.com:DavidPortillo26/atlas-gan.git
+                host: Davids-iMac.local
+                memory:
+                    total: "8589934592"
+                os: macOS-15.5-arm64-arm-64bit-Mach-O
+                program: /Users/davidportillo/atlas-gan/dcgan/utils/train_baseline.py
+                python: CPython 3.13.5
+                root: /Users/davidportillo/atlas-gan/dcgan
+                startedAt: "2025-07-08T16:01:03.754467Z"
+                writerId: z3gymttrn2mb919b57mbz6jlspdh1gl3
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 16
+            "4": 3.13.5
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": darwin-arm64
+batch_size:
+    value: 64
+epochs:
+    value: 25

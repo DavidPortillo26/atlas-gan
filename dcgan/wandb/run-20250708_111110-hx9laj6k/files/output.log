@@ -1,0 +1,26 @@
+Epoch 1/25 | G Loss: 1.5483 | D Loss: 0.2301
+[34m[1mwandb[0m: [33mWARNING[0m Data passed to `wandb.Image` should consist of values in the range [0, 255], image data will be normalized to this range, but behavior will be removed in a future version of wandb.
+Epoch 2/25 | G Loss: 1.3840 | D Loss: 0.2511
+Epoch 3/25 | G Loss: 1.9696 | D Loss: 0.1296
+Epoch 4/25 | G Loss: 2.1725 | D Loss: 0.2273
+Epoch 5/25 | G Loss: 0.9909 | D Loss: 0.3557
+Epoch 6/25 | G Loss: 2.8540 | D Loss: 0.2271
+Epoch 7/25 | G Loss: 1.5905 | D Loss: 0.2632
+Epoch 8/25 | G Loss: 1.9085 | D Loss: 0.2651
+Epoch 9/25 | G Loss: 3.5231 | D Loss: 0.1144
+Epoch 10/25 | G Loss: 2.7104 | D Loss: 0.2857
+Epoch 11/25 | G Loss: 2.4758 | D Loss: 0.2556
+Epoch 12/25 | G Loss: 3.2485 | D Loss: 0.2518
+Epoch 13/25 | G Loss: 1.3305 | D Loss: 0.2834
+Epoch 14/25 | G Loss: 2.1451 | D Loss: 0.3428
+Epoch 15/25 | G Loss: 1.6288 | D Loss: 0.2074
+Epoch 16/25 | G Loss: 2.7484 | D Loss: 0.2699
+Epoch 17/25 | G Loss: 2.0893 | D Loss: 0.1594
+Epoch 18/25 | G Loss: 1.3046 | D Loss: 0.3234
+Epoch 19/25 | G Loss: 1.3411 | D Loss: 0.2802
+Epoch 20/25 | G Loss: 2.2467 | D Loss: 0.2239
+Epoch 21/25 | G Loss: 2.5245 | D Loss: 0.2800
+Epoch 22/25 | G Loss: 2.8810 | D Loss: 0.1496
+Epoch 23/25 | G Loss: 2.7076 | D Loss: 0.1167
+Epoch 24/25 | G Loss: 3.5524 | D Loss: 0.3172
+Epoch 25/25 | G Loss: 3.5039 | D Loss: 0.1579

@@ -12,7 +12,8 @@ from models.generator import Generator
 from models.discriminator import Discriminator
 from utils.mnist_loader import get_mnist_loader
 
-def train_dcgan(epochs=25, batch_size=64, latent_dim=100, device='cuda'):
+def train_dcgan(epochs=25, batch_size=64, latent_dim=100, device='cpu'):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     wandb.init(project="dcgan-mnist", config={"epochs": epochs, "batch_size": batch_size})
     dataloader = get_mnist_loader(batch_size)
     generator = Generator(latent_dim).to(device)

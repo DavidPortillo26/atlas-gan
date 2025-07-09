@@ -1,0 +1,1 @@
+{"Generator Loss":3.5038986206054688,"Discriminator Loss":0.15787750482559204,"_timestamp":1.7519943911740422e+09,"Generated Images":{"_type":"images/separated","width":28,"height":28,"format":"png","count":1,"filenames":["media/images/Generated Images_49_18e08de0934f532d17ee.png"]},"_wandb":{"runtime":2992},"_runtime":2992,"_step":49}

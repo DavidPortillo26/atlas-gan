@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2025-07-08T16:11:10.914374Z",
+  "program":  "/Users/davidportillo/atlas-gan/dcgan/utils/train_baseline.py",
+  "codePath":  "dcgan/utils/train_baseline.py",
+  "codePathLocal":  "utils/train_baseline.py",
+  "git":  {
+    "remote":  "git@github.com:DavidPortillo26/atlas-gan.git",
+    "commit":  "232873a937744f111c6b0e6dd5fa0b3381681c8b"
+  },
+  "email":  "anicetod03@gmail.com",
+  "root":  "/Users/davidportillo/atlas-gan/dcgan",
+  "host":  "Davids-iMac.local",
+  "executable":  "/Users/davidportillo/atlas-gan/dcgan/venv/bin/python3",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "122658316288"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8,
+    "swapTotalBytes":  "2147483648",
+    "ramTotalBytes":  "8589934592"
+  },
+  "writerId":  "wcppg03cr2homw32l4df6sxauzq7bcsi"
+}
