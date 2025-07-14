@@ -1,0 +1,38 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            mpbogi9u01z7k2mff726r8k9fidry5bl:
+                codePath: advanced_gan/utils/train_baseline.py
+                codePathLocal: train_baseline.py
+                email: anicetod03@gmail.com
+                executable: /Users/davidportillo/atlas-gan/dcgan/venv/bin/python3
+                git:
+                    commit: 4e5ccf1fc5ecaa755ef76d310c07cdfdc4e86e09
+                    remote: git@github.com:DavidPortillo26/atlas-gan.git
+                host: Davids-iMac.local
+                os: macOS-15.5-arm64-arm-64bit-Mach-O
+                program: /Users/davidportillo/atlas-gan/advanced_gan/utils/train_baseline.py
+                python: CPython 3.13.5
+                root: /Users/davidportillo/atlas-gan/advanced_gan/utils
+                startedAt: "2025-07-12T13:33:09.873252Z"
+                writerId: mpbogi9u01z7k2mff726r8k9fidry5bl
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 16
+            "4": 3.13.5
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": darwin-arm64
+batch_size:
+    value: 64
+epochs:
+    value: 25

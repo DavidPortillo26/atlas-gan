@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/Users/davidportillo/atlas-gan/advanced_gan/utils/train_baseline.py", line 49, in <module>
+    train_gan()
+    ~~~~~~~~~^^
+  File "/Users/davidportillo/atlas-gan/advanced_gan/utils/train_baseline.py", line 15, in train_gan
+    dataloader = get_celeba_loader(data_dir, batch_size)
+  File "/Users/davidportillo/atlas-gan/advanced_gan/utils/dataloader.py", line 12, in get_celeba_loader
+    dataset = datasets.ImageFolder(root=data_dir, transform=transform)
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torchvision/datasets/folder.py", line 328, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        root,
+        ^^^^^
+    ...<5 lines>...
+        allow_empty=allow_empty,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torchvision/datasets/folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+                            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torchvision/datasets/folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "/Users/davidportillo/atlas-gan/dcgan/venv/lib/python3.13/site-packages/torchvision/datasets/folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+                                             ~~~~~~~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/celeba'
